@@ -20,8 +20,8 @@
   justify-content: center;
   align-items: center;
 }
-  /* Set maximum width for the container and center it horizontally */
-  .allcontainer {
+  /* Set maximum width for the container and center it horizontally  */
+ .allcontainer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -34,8 +34,8 @@
     width: 14rem;
     height: 14rem;
     border-radius: 50%;
-  }
-.allh2{
+  } */
+/* .allh2{
   margin-top: 3%;
   margin-bottom: 3%;
 

@@ -10,7 +10,7 @@
   display: flex;
   position: fixed;
 }
-
+ 
 #sign-in-content {
   filter: blur(-4px);
   width: 65%;
