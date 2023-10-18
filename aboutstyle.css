@@ -1,0 +1,143 @@
+/* about stylesheet  */
+
+/* mobile first  */
+
+@media  (max-width: 400px) {
+.thecontainer {
+    max-width:  400px;
+
+}
+
+
+
+.containerGrid {
+    width:  400px;
+    height:  100%;
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
+/* layout */
+
+ .thecontainer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+  }
+
+  .aboutUs {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    
+  }
+
+  .containerGrid {
+    display: grid;
+    grid-template-columns:  repeat(3 , 300px);
+    justify-content: center;
+    column-gap:  1.8rem;
+
+}
+
+.section__tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    border:  1px solid rgba(240, 235, 86, 0.864);
+    background-color:  white;
+    padding:  3em;
+
+}
+
+.section__button {
+    color:  black;
+    font-size:  small;
+    display:  inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+
+.service__icon {
+    font-size:  1rem;
+    transition:  0.4s;
+
+}
+
+/* .service__button:hover */
+.service__icon:hover {
+    transform:  translateX(0.5rem);
+}
+
+.theimg {
+    width: 14rem;
+    height: 14rem;
+
+  }  
+
+  .theh3 {
+    margin-top:  20px;
+
+  }
+
+.section__description {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:  0;
+    /* background-color:  rgba(0,0,0, 0.5); */
+    z-index:  20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  0 1rem;
+    opacity:  0;
+    visibility:  hidden;
+    transition:  .3s;
+
+}
+
+.description {
+    width:  400px;
+    position: relative;
+    background-color: rgb(243, 241, 241);
+    padding: 4.5rem 2.5rem 2.5rem ;
+    border-radius: 1.5rem;
+
+}
+
+.service__close {
+    position: absolute;
+    top:  2rem;
+    right:  2rem;
+    font-size:  1.5rem;
+    color:  black;
+    cursor: pointer;
+
+}
+
+.theh3 {
+    margin-bottom:  1.05em;
+}
+
+.section__description ,
+.description {
+    text-align: center;
+
+}
+
+/* Active service  */
+
+.active-mode {
+    opacity:  1;
+    visibility:  visible;
+
+}
